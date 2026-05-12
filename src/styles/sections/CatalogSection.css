@@ -1,0 +1,89 @@
+/* ============================================
+   CATALOG SECTION COMPONENT
+   ============================================ */
+
+.filtros {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+}
+
+.gestion-form {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: var(--spacing-lg);
+  margin-bottom: var(--spacing-2xl);
+  padding: var(--spacing-xl);
+  background-color: var(--color-bg-white);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+}
+
+.gestion-form input,
+.gestion-form select {
+  width: 210px;
+  margin: 0;
+}
+
+.gestion-form button {
+  margin-top: 0;
+}
+
+.gestion-form-largo input {
+  width: 190px;
+}
+
+.card-acciones {
+  display: flex;
+  gap: var(--spacing-sm);
+  flex-wrap: wrap;
+  margin-top: var(--spacing-lg);
+}
+
+.card-acciones button {
+  margin-top: 0;
+  padding: var(--spacing-sm) var(--spacing-md);
+  border-radius: var(--radius-sm);
+  font-size: var(--font-size-sm);
+}
+
+button.danger {
+  background-color: var(--color-danger-dark);
+}
+
+button.danger:hover {
+  background-color: var(--color-danger-darker);
+}
+
+.gestion-card {
+  display: flex;
+  flex-direction: column;
+}
+
+.filtros input,
+.filtros select {
+  width: 260px;
+  margin: 0;
+  padding: var(--spacing-md);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-family: var(--font-family-primary);
+  font-size: var(--font-size-base);
+}
+
+.filtros input:focus,
+.filtros select:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+@media (max-width: 768px) {
+  .filtros input,
+  .filtros select,
+  .gestion-form input,
+  .gestion-form select {
+    width: 100%;
+  }
+}

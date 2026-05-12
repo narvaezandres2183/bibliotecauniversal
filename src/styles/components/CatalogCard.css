@@ -1,0 +1,128 @@
+/* ============================================
+   CATALOG CARD COMPONENT
+   ============================================ */
+
+.catalogo-card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 180px;
+}
+
+.card {
+  background-color: var(--color-bg-card);
+  padding: var(--spacing-2xl);
+  border-radius: var(--radius-md);
+  width: 250px;
+  box-shadow: var(--shadow-sm);
+  border: 2px solid transparent;
+  transition: box-shadow var(--transition-base);
+}
+
+.card:hover {
+  box-shadow: var(--shadow-lg);
+}
+
+.card-boton {
+  text-align: left;
+  margin-top: 0;
+  color: var(--color-text-primary);
+  background-color: transparent;
+  width: 100%;
+  padding: 0;
+  border-radius: 0;
+  border: none;
+  cursor: pointer;
+  font-family: var(--font-family-primary);
+  text-align: left;
+}
+
+.card-boton:hover {
+  background-color: transparent;
+}
+
+.card-link {
+  cursor: pointer;
+}
+
+.card-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card h3 {
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+.card p {
+  margin: var(--spacing-xs) 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+/* Botón de favorito */
+.favorito-btn {
+  position: absolute;
+  top: var(--spacing-md);
+  right: var(--spacing-md);
+  border-radius: 50%;
+  width: 34px;
+  height: 34px;
+  padding: 0;
+  margin: 0;
+  background-color: var(--color-border-light);
+  border: none;
+  color: var(--color-text-secondary);
+  font-size: 17px;
+  cursor: pointer;
+  transition: color var(--transition-base);
+}
+
+.favorito-btn:hover {
+  background-color: var(--color-border-light);
+}
+
+.favorito-btn.activo {
+  color: var(--color-danger);
+}
+
+/* Tags */
+.tags {
+  display: flex;
+  gap: var(--spacing-xs);
+  margin-top: var(--spacing-xs);
+  flex-wrap: wrap;
+}
+
+.tag {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: var(--radius-full);
+  font-size: var(--font-size-xs);
+  font-weight: var(--font-weight-semibold);
+}
+
+.tag-libro {
+  background-color: var(--color-tag-book);
+  color: var(--color-tag-book-text);
+}
+
+.tag-expo {
+  background-color: var(--color-tag-expo);
+  color: var(--color-tag-expo-text);
+}
+
+.tag-categoria {
+  background-color: var(--color-tag-category);
+  color: var(--color-tag-category-text);
+}
+
+.tag-alerta {
+  background-color: var(--color-tag-alert);
+  color: var(--color-tag-alert-text);
+  margin-top: var(--spacing-xs);
+}

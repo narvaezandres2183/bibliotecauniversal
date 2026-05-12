@@ -1,0 +1,22 @@
+/* ============================================
+   STATISTIC CARD COMPONENT
+   ============================================ */
+
+.estadistica-card {
+  width: 230px;
+  text-align: center;
+}
+
+.estadistica-card h3 {
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: var(--font-size-base);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.estadistica-card p {
+  font-size: var(--font-size-xl);
+  margin: var(--spacing-md) 0 0 0;
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-primary);
+}

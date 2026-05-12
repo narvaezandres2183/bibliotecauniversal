@@ -1,0 +1,40 @@
+/* ============================================
+   CATEGORY CARD COMPONENT
+   ============================================ */
+
+.categoria-card {
+  text-align: left;
+  margin-top: 0;
+  background-color: var(--color-bg-card);
+  color: var(--color-text-primary);
+  border: 2px solid transparent;
+  padding: var(--spacing-2xl);
+  cursor: pointer;
+  transition: border-color var(--transition-base), background-color var(--transition-base);
+}
+
+.categoria-card:hover {
+  background-color: var(--color-bg-card);
+  color: var(--color-text-primary);
+}
+
+.categoria-card h3 {
+  margin: 0 0 var(--spacing-xs) 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+}
+
+.categoria-card p {
+  margin: var(--spacing-xs) 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-secondary);
+}
+
+.categoria-activa {
+  border-color: var(--color-primary);
+  background-color: var(--color-primary-light);
+}
+
+.categoria-activa:hover {
+  background-color: var(--color-primary-light);
+}

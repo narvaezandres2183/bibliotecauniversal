@@ -1,0 +1,84 @@
+/* ============================================
+   DESIGN TOKENS - Variables globales
+   ============================================ */
+
+:root {
+  /* Colores primarios */
+  --color-primary: #2c3e50;
+  --color-primary-dark: #34495e;
+  --color-primary-light: #dce6f2;
+  
+  /* Colores de texto */
+  --color-text-primary: #1f2d3a;
+  --color-text-secondary: #7f8c8d;
+  --color-text-light: #ffffff;
+  
+  /* Colores de fondo */
+  --color-bg-body: #f4f4f4;
+  --color-bg-card: #e6eef5;
+  --color-bg-white: #ffffff;
+  --color-bg-input: #ffffff;
+  
+  /* Colores de tags */
+  --color-tag-book: #d7ecff;
+  --color-tag-book-text: #0c4a7a;
+  --color-tag-expo: #eadcff;
+  --color-tag-expo-text: #5a2a86;
+  --color-tag-category: #dde6d6;
+  --color-tag-category-text: #2b5a29;
+  --color-tag-alert: #ffe6bf;
+  --color-tag-alert-text: #855700;
+  
+  /* Colores de estado */
+  --color-success: #1f8f4f;
+  --color-danger: #d62839;
+  --color-danger-dark: #b33939;
+  --color-danger-darker: #972e2e;
+  --color-warning: #ffe48f;
+  --color-warning-text: #7c5a00;
+  
+  /* Colores neutros */
+  --color-border: #cfd8e3;
+  --color-border-light: #f0f2f5;
+  --color-border-hover: #ccd9e9;
+  --color-shadow: rgba(0, 0, 0, 0.1);
+  --color-shadow-hover: rgba(0, 0, 0, 0.16);
+  
+  /* Tipografía */
+  --font-family-primary: 'Montserrat', sans-serif;
+  --font-size-xs: 12px;
+  --font-size-sm: 14px;
+  --font-size-base: 16px;
+  --font-size-lg: 18px;
+  --font-size-xl: 28px;
+  --font-size-2xl: 40px;
+  
+  --font-weight-regular: 400;
+  --font-weight-semibold: 600;
+  
+  /* Espaciado */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 10px;
+  --spacing-lg: 12px;
+  --spacing-xl: 16px;
+  --spacing-2xl: 20px;
+  --spacing-3xl: 24px;
+  --spacing-4xl: 30px;
+  --spacing-5xl: 40px;
+  --spacing-6xl: 80px;
+  
+  /* Border radius */
+  --radius-sm: 12px;
+  --radius-md: 15px;
+  --radius-lg: 20px;
+  --radius-full: 999px;
+  
+  /* Sombras */
+  --shadow-sm: 0px 0px 8px rgba(0, 0, 0, 0.1);
+  --shadow-md: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0px 8px 20px rgba(0, 0, 0, 0.16);
+  
+  /* Transiciones */
+  --transition-base: 0.2s ease-in-out;
+}

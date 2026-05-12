@@ -1,0 +1,47 @@
+/* ============================================
+   EVENT CARD COMPONENT
+   ============================================ */
+
+.evento-card {
+  width: 310px;
+}
+
+.evento-card h3 {
+  margin: 0 0 var(--spacing-md) 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.evento-card p {
+  margin: var(--spacing-xs) 0;
+  font-size: var(--font-size-sm);
+  color: var(--color-text-primary);
+}
+
+.evento-card strong {
+  font-weight: var(--font-weight-semibold);
+}
+
+.evento-accion {
+  width: 100%;
+  margin-top: var(--spacing-lg);
+  padding: var(--spacing-md) var(--spacing-lg);
+}
+
+.evento-accion.ya-inscrito {
+  background-color: var(--color-success);
+}
+
+.evento-accion.ya-inscrito:hover {
+  background-color: var(--color-success);
+}
+
+.evento-accion.cancelar {
+  background-color: var(--color-danger-dark);
+  margin-top: var(--spacing-md);
+}
+
+.evento-accion.cancelar:hover {
+  background-color: var(--color-danger-darker);
+}

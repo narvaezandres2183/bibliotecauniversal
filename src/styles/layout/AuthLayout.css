@@ -1,0 +1,36 @@
+/* ============================================
+   AUTH LAYOUT COMPONENT
+   ============================================ */
+
+.auth-layout {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: var(--color-bg-body);
+}
+
+.auth-layout .titulo-principal {
+  margin-bottom: var(--spacing-md);
+}
+
+.auth-layout .subtitulo {
+  margin-bottom: var(--spacing-4xl);
+}
+
+.auth-layout .caja {
+  box-shadow: var(--shadow-md);
+  animation: slideUp 0.3s ease-in-out;
+}
+
+@keyframes slideUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

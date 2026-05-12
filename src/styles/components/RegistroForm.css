@@ -1,0 +1,37 @@
+/* ============================================
+   REGISTRO FORM COMPONENT
+   ============================================ */
+
+.registro-form {
+  /* Hereda estilos de LoginForm */
+}
+
+.registro-form h2 {
+  margin: 0 0 var(--spacing-2xl) 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.registro-form input {
+  width: 90%;
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.registro-form button {
+  width: 70%;
+  margin-top: var(--spacing-xl);
+}
+
+.registro-form button:last-of-type {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+  margin-top: var(--spacing-lg);
+}
+
+.registro-form button:last-of-type:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}

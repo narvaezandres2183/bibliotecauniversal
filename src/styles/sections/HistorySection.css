@@ -1,0 +1,40 @@
+/* ============================================
+   HISTORY SECTION COMPONENT
+   ============================================ */
+
+.estadisticas-grid {
+  display: flex;
+  gap: var(--spacing-2xl);
+  flex-wrap: wrap;
+  margin-bottom: var(--spacing-3xl);
+}
+
+.estadisticas-grid .card {
+  width: 230px;
+}
+
+@media (max-width: 768px) {
+  .estadisticas-grid .card {
+    width: 100%;
+  }
+}
+.historial-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-lg);
+  border-bottom: 1px solid var(--color-border-light);
+  padding: var(--spacing-sm) 0;
+}
+
+.historial-item p,
+.historial-item button {
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .historial-item {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}

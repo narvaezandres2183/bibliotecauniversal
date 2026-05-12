@@ -1,0 +1,69 @@
+/* ============================================
+   LOGIN FORM COMPONENT
+   ============================================ */
+
+.caja {
+  background-color: var(--color-bg-white);
+  padding: var(--spacing-4xl);
+  border-radius: var(--radius-md);
+  width: 300px;
+  box-shadow: var(--shadow-md);
+  text-align: center;
+}
+
+.caja h2 {
+  margin: 0 0 var(--spacing-2xl) 0;
+  font-size: var(--font-size-lg);
+  font-weight: var(--font-weight-semibold);
+  color: var(--color-text-primary);
+}
+
+.caja input {
+  width: 90%;
+  padding: var(--spacing-md);
+  margin: var(--spacing-md) 0;
+}
+
+.caja button {
+  width: 70%;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-lg);
+}
+
+.caja p {
+  margin-top: var(--spacing-2xl);
+  color: var(--color-text-secondary);
+}
+
+.caja button:last-of-type {
+  background-color: transparent;
+  color: var(--color-primary);
+  border: 2px solid var(--color-primary);
+}
+
+.caja button:last-of-type:hover {
+  background-color: var(--color-primary);
+  color: var(--color-text-light);
+}
+
+/* Títulos de autenticación */
+.titulo-principal {
+  font-size: var(--font-size-2xl);
+  font-weight: var(--font-weight-semibold);
+  margin-bottom: var(--spacing-md);
+  color: var(--color-text-primary);
+}
+
+.subtitulo {
+  font-size: var(--font-size-lg);
+  margin-bottom: var(--spacing-4xl);
+  color: var(--color-text-secondary);
+}
+
+/* Contenedor de autenticación */
+.contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: var(--spacing-6xl);
+}
